@@ -1,0 +1,25 @@
+#header {
+  background-color: var(--background-color);
+}
+
+.header_inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 10px 20px 4px 20px;
+}
+
+.page__link {
+  color: var(--text-color);
+  font-weight: 500;
+}
+
+.login_button {
+  color: var(--background-color);
+  background-color: var(--text-color);
+  padding: 8px 16px;
+  font-weight: 500;
+
+  border-radius: 10px;
+}
