@@ -1,0 +1,24 @@
+{
+  "name": "threads",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass scss:assets/css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Khaznh/Threads_clone_FE.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Khaznh/Threads_clone_FE/issues"
+  },
+  "homepage": "https://github.com/Khaznh/Threads_clone_FE#readme",
+  "description": "",
+  "devDependencies": {
+    "sass": "^1.83.4"
+  }
+}
