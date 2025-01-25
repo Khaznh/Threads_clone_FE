@@ -1,0 +1,49 @@
+.side-bar_inner {
+  display: flex;
+  flex-direction: column;
+
+  background-color: var(--background-color);
+  height: 0;
+
+  .navbar {
+    width: 50%;
+    margin-left: 5px;
+    margin-top: 150%;
+    gap: 15px;
+
+    display: flex;
+    flex-direction: column;
+  }
+
+  a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 12px 12px;
+    border-radius: 12px;
+    width: auto;
+    height: auto;
+  }
+
+  a:hover {
+    background-color: var(--backgound-navbar-color);
+  }
+
+  a.navbar_add {
+    background-color: var(--backgound-navbar-color);
+  }
+
+  .settings {
+    width: 50%;
+    margin-left: 5px;
+    margin-top: 200%;
+  }
+}
+
+.settings-modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  // Các style khác để định vị và thiết kế modal
+}

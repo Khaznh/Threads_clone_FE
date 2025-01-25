@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -31,16 +31,29 @@
     <script src="./assets/js/Script.js"></script>
   </head>
   <body>
+    <!-- Header -->
     <header id="header"></header>
     <script>
       load("#header", "./template/header__home_notlog.html");
     </script>
 
-    <h1>Home page</h1>
+    <!-- Main content -->
+    <div class="content-container row">
+      <!-- Side bar -->
+      <div class="side-bar col-lg-1" id="side-bar"></div>
+      <script>
+        load("#side-bar", "./template/sidebar_home_notlog.html");
+      </script>
+      <div class="main-content col-lg-11">
+        <!-- News -->
+        <div class="main-content__news"></div>
 
-    <header id="footer"></header>
-    <script>
-      load("#footer", "./template/footer.html");
-    </script>
+        <!-- Footer -->
+        <footer id="footer"></footer>
+        <script>
+          load("#footer", "./template/footer.html");
+        </script>
+      </div>
+    </div>
   </body>
 </html>

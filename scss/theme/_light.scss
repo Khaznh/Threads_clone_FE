@@ -1,0 +1,10 @@
+html.light {
+  --text-color: rgb(42, 42, 42);
+  --background-color: rgb(243, 245, 247);
+  --copyright-text-color: rgb(86, 86, 86);
+
+  & .logo__img {
+    fill: var(--text-color);
+    transition: fill 0.3s ease;
+  }
+}
