@@ -1,0 +1,44 @@
+.search_inner {
+  padding: 0 100px;
+
+  .search-container {
+    height: calc(100vh - 57.6px);
+    position: relative;
+
+    background-color: rgb(28, 28, 28);
+    border-top-left-radius: 25px; /* Góc trên trái */
+    border-top-right-radius: 25px; /* Góc trên phải */
+
+    .search_submit {
+      position: absolute;
+      top: 3%;
+      left: 7%;
+    }
+
+    form {
+      display: flex;
+      justify-content: center;
+    }
+
+    input {
+      margin-top: 20px;
+
+      width: 90%;
+      height: 35px;
+      border: 1px solid rgb(31, 32, 32);
+      border-radius: 25px;
+      text-align: center;
+
+      background-color: var(--background-color);
+
+      font-size: 1.7rem;
+      padding: 20px 0;
+      color: var(--text-color);
+
+      &::placeholder {
+        text-indent: 50px;
+        margin-left: 50px;
+      }
+    }
+  }
+}

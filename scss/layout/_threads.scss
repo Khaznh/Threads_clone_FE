@@ -1,0 +1,71 @@
+.threads_inner {
+  padding: 0 100px;
+
+  .threads-container {
+    background-color: rgb(28, 28, 28);
+    border-top-left-radius: 25px; /* Góc trên trái */
+    border-top-right-radius: 25px; /* Góc trên phải */
+  }
+
+  .news_container {
+    padding: 20px 30px;
+
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+
+    border-bottom: 2px solid rgb(56, 57, 57);
+
+    .blog-info {
+      display: flex;
+      gap: 20px;
+    }
+
+    .user-name {
+      font-size: 1.6rem;
+      font-weight: 500;
+
+      color: var(--text-color);
+    }
+
+    .time-posted {
+      color: rgb(119, 119, 119);
+    }
+
+    .user-blog {
+      margin-top: 10px;
+      line-height: 1.1;
+      color: var(--text-color);
+      margin-bottom: 15px;
+    }
+
+    .user-reaction {
+      display: flex;
+      gap: 18px;
+    }
+
+    .user-heart a,
+    .user-comment a {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    .user-heart a,
+    .user-comment a {
+      color: var(--text-color);
+      font-weight: 300;
+      font-size: 1.3rem;
+    }
+
+    .repost {
+      margin-right: 7px;
+    }
+  }
+
+  .news-logo img {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+  }
+}

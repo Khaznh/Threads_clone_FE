@@ -1,5 +1,9 @@
 #header {
   background-color: var(--background-color);
+
+  position: sticky;
+  top: 0;
+  z-index: 10;
 }
 
 .header_inner {

@@ -1,9 +1,14 @@
+#side-bar {
+  position: fixed;
+  z-index: 10;
+
+  background-color: var(--background-color);
+}
+
 .side-bar_inner {
   display: flex;
   flex-direction: column;
-
   background-color: var(--background-color);
-  height: 0;
 
   .navbar {
     width: 50%;
