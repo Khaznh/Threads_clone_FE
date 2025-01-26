@@ -188,12 +188,15 @@ html.light .logo__img {
   transition: fill 0.3s ease;
 }
 
-.row > *, .container-fluid, .container {
+.row > *,
+.container-fluid,
+.container {
   padding-left: calc(var(--grid-gutter-x) * 0.5);
   padding-right: calc(var(--grid-gutter-x) * 0.5);
 }
 
-.container-fluid, .container {
+.container-fluid,
+.container {
   --grid-gutter-x: 30px;
   --grid-gutter-y: 0;
   width: 100%;
@@ -1484,6 +1487,10 @@ html.light .logo__img {
 }
 .log-in_page #footer .footer_inner {
   margin-left: 0px;
+}
+
+.easter-egg {
+  color: var(--background-color);
 }
 
 /*# sourceMappingURL=main.css.map */
