@@ -1,6 +1,6 @@
 Nếu ô đọc những dòng này thì hãy bình tính nhé
 
-= Công cụ:
+- Công cụ:
   + Html
   + Css
   + Scss/Sass: cái này để giúp viết css
