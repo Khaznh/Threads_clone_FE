@@ -1338,6 +1338,7 @@ html.light .logo__img {
 .search_inner .search-container input::placeholder {
   text-indent: 50px;
   margin-left: 50px;
+  font-family: Gordita, sans-serif;
 }
 
 #side-bar {
@@ -1401,6 +1402,88 @@ html.light .logo__img {
 .footer_inner a {
   font-size: 1.4rem;
   color: var(--copyright-text-color);
+}
+
+.log-in_page .log-in_container {
+  background-color: var(--background-color);
+  height: calc(100vh - 44px);
+}
+.log-in_page .log-in_container .log-in_form {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.log-in_page .log-in_container .log-in_form h2 {
+  font-size: 1.6rem;
+  color: var(--text-color);
+  font-weight: 600;
+  margin-bottom: 17px;
+}
+.log-in_page .log-in_container .log-in_form input {
+  width: 368px;
+  height: 53px;
+  border: 1px solid rgb(31, 32, 32);
+  border-radius: 15px;
+  display: block;
+  background-color: rgb(30, 30, 30);
+  font-size: 1.4rem;
+  padding: 16px 16px;
+  color: var(--text-color);
+}
+.log-in_page .log-in_container .log-in_form input::placeholder {
+  font-family: Gordita, sans-serif;
+}
+.log-in_page .log-in_container .log-in_form input.username {
+  margin-bottom: 6px;
+}
+.log-in_page .log-in_container .log-in_form button {
+  background-color: var(--text-color);
+  color: var(--background-color);
+  display: block;
+  padding: 18.5px 161.3125px;
+  border-radius: 15px;
+  font-weight: 500;
+  margin-top: 6px;
+}
+.log-in_page .log-in_container .log-in_form a.forget-pass {
+  color: rgb(119, 119, 106);
+  margin-top: 15px;
+  font-size: 1.4rem;
+}
+.log-in_page .log-in_container .log-in_form p {
+  color: rgb(119, 119, 106);
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+.log-in_page .log-in_container .log-in_instagram {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-radius: 15px;
+  width: 368px;
+  height: 92px;
+  padding: 24px 20px;
+  background-color: rgb(0, 0, 0);
+}
+.log-in_page .log-in_container .log-in_instagram .instagram_logo {
+  width: 64px;
+  height: 64px;
+  border-radius: 15px;
+}
+.log-in_page .log-in_container .log-in_instagram p {
+  color: rgb(119, 119, 106);
+}
+.log-in_page .log-in_container .log-in_instagram .instagram_arrow {
+  margin-left: auto;
+}
+.log-in_page #footer {
+  margin-top: 0;
+}
+.log-in_page #footer .footer_inner {
+  margin-left: 0px;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,101 @@
+.log-in_page {
+  .log-in_container {
+    background-color: var(--background-color);
+    height: calc(100vh - 44px);
+
+    .log-in_form {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      h2 {
+        font-size: 1.6rem;
+        color: var(--text-color);
+
+        font-weight: 600;
+        margin-bottom: 17px;
+      }
+
+      input {
+        width: 368px;
+        height: 53px;
+        border: 1px solid rgb(31, 32, 32);
+        border-radius: 15px;
+        display: block;
+
+        background-color: rgb(30, 30, 30);
+
+        font-size: 1.4rem;
+        padding: 16px 16px;
+        color: var(--text-color);
+
+        &::placeholder {
+          font-family: Gordita, sans-serif;
+        }
+
+        &.username {
+          margin-bottom: 6px;
+        }
+      }
+
+      button {
+        background-color: var(--text-color);
+        color: var(--background-color);
+        display: block;
+        padding: 18.5px 161.3125px;
+        border-radius: 15px;
+        font-weight: 500;
+        margin-top: 6px;
+      }
+
+      a.forget-pass {
+        color: rgb(119, 119, 106);
+        margin-top: 15px;
+        font-size: 1.4rem;
+      }
+
+      p {
+        color: rgb(119, 119, 106);
+        margin-top: 24px;
+        margin-bottom: 24px;
+      }
+    }
+
+    .log-in_instagram {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      border-radius: 15px;
+
+      width: 368px;
+      height: 92px;
+      padding: 24px 20px;
+      background-color: rgb(0, 0, 0);
+
+      .instagram_logo {
+        width: 64px;
+        height: 64px;
+        border-radius: 15px;
+      }
+
+      p {
+        color: rgb(119, 119, 106);
+      }
+
+      .instagram_arrow {
+        margin-left: auto;
+      }
+    }
+  }
+
+  #footer {
+    margin-top: 0;
+
+    .footer_inner {
+      margin-left: 0px;
+    }
+  }
+}
